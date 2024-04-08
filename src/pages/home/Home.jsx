@@ -1,9 +1,11 @@
-import "./home.scss"
+import "./home.scss";
 
-const home = () => {
+const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <div className="home">
+      <Sidebar />
+    </div>
+  );
+};
 
-export default home
+export default Home
