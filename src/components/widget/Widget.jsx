@@ -1,9 +1,7 @@
-import React from './widget.scss'
+import './widget.scss'
 
-const widget = () => {
-  return (
-    <div>widget</div>
-  )
+const Widget = () => {
+  return <div className='widget'>widget</div>
 }
 
-export default widget
+export default Widget

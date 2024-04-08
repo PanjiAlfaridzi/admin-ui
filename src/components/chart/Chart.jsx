@@ -1,9 +1,8 @@
-import React from './chart.scss'
+import './chart.scss'
 
-const chart = () => {
-  return (
-    <div>chart</div>
-  )
+const Chart = () => {
+  return <div className='chart'>chart</div>
+  
 }
 
-export default chart
+export default Chart
