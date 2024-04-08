@@ -1,7 +1,7 @@
-import './chart.scss'
+import "./chart.scss"
 
 const Chart = () => {
-  return <div className='chart'>chart</div>
+  return <div className="chart">chart</div>
   
 }
 

@@ -1,7 +1,7 @@
-import './widget.scss'
+import "./widget.scss"
 
 const Widget = () => {
-  return <div className='widget'>widget</div>
+  return <div className="widget">widget</div>
 }
 
 export default Widget
