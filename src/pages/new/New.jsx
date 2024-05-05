@@ -8,7 +8,11 @@ const New = () => {
       <Sidebar />
       <div className="newContainer">
         <Navbar />
-        form
+        <div className="top">top</div>
+        <div className="bottom">
+          <div className="left">left</div>
+          <div className="right">right</div>
+        </div>
       </div>
     </div>
   );
