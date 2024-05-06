@@ -5,7 +5,7 @@ import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUpload
 import { useState } from "react";
 
 const New = ({ inputs, title }) => {
-	const [file, setFile] = useState("");
+  const [file, setFile] = useState("");
 
   return (
     <div className="new">
@@ -38,8 +38,14 @@ const New = ({ inputs, title }) => {
                   onChange={(e) => setFile(e.target.files[0])}
                   style={{ display: "none" }}
                 />
-              </div> 
-              
+              </div>
+
+              {inputs.map((input) => (
+                <div className="formInput" key={input.id}>
+                  <label>{input.label}</label>
+                  <input type={input.type} placeholder={input.placeholder} />
+                </div>
+              ))}
               <button>Send</button>
             </form>
           </div>
