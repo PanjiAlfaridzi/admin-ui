@@ -16,7 +16,7 @@ const Navbar = () => {
           </div>
           <div className="item">
             <img
-              src="https://media.licdn.com/dms/image/D5635AQG_AH1WZMnUMw/profile-framedphoto-shrink_400_400/0/1713788243214?e=1715770800&v=beta&t=gtipdSlZssmSuZ3_gucWW4DJoIWv-eXDnBRcRkhpLiY"
+              src=""
               alt=""
               className="avatar"
             />
