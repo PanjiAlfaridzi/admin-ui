@@ -20,23 +20,28 @@ function App() {
             <Route path="users">
               <Route index element={<List />}></Route>
               <Route path=":userId" element={<Single />}></Route>
-              <Route path="new"
-                element={<New inputs={userInputs} title="Add New User"
-                />}
+              <Route 
+              path="new" 
+              element={<New inputs={userInputs} title="Add New User" />}
               />
+      </Route>
+      <Route path="products">
+              <Route index element={<List />}></Route>
+              <Route path=":productId" element={<Single />}></Route>
+              <Route 
+              path="new" 
+              element={<New inputs={productInputs} title="Add New Product" />}
+              />
+          </Route>
+          <Route path="categories">
+              <Route path="widget" element={<Widget />}></Route>
+              <Route index element={<Mylist />}></Route>
             </Route>
           </Route>
-          <Route path="products">
-            <Route index element={<List />}></Route>
-            <Route path=":productId" element={<Single />}></Route>
-            <Route
-              path="new"
-              element={<New inputs={productInputs} title="Add New Product" />}
-            />
-          </Route>
         </Routes>
-      </BrowserRouter >
+      </BrowserRouter>
     </>
+
   );
 }
 
